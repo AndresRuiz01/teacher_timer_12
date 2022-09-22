@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/teacher_timer/static/css/main.a6ccccd5.css",
+    "main.js": "/teacher_timer/static/js/main.c8b47c23.js",
+    "index.html": "/teacher_timer/index.html",
+    "main.a6ccccd5.css.map": "/teacher_timer/static/css/main.a6ccccd5.css.map",
+    "main.c8b47c23.js.map": "/teacher_timer/static/js/main.c8b47c23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6ccccd5.css",
+    "static/js/main.c8b47c23.js"
+  ]
+}
