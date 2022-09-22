@@ -1,0 +1,68 @@
+body {
+  background: #e3edf7;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill {
+  width: 370px;
+  height: 370px;
+  position: relative;
+}
+
+.outer {
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(0,0,0,0.15);
+}
+
+.inner {
+  height: 330px;
+  width: 330px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+              inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+              -0.5px -0.5px 0px rgba(255,255,255,1),
+              0.5px 0.5px 0px rgba(0,0,0,0.15),
+              0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+
+circle {
+  fill: none;
+  stroke: darkgray;
+  stroke-width: 20px;
+  stroke-dasharray: 1099;
+}
+
+svg {
+  position: absolute;
+  top: calc(25vh);
+  left: calc(25vw);
+}
+
+.timerInfo {
+  position:fixed;
+  top: 17vh;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.time {
+  font-size: 50px;
+}
+
+.title {
+  font-size: 20px;
+}
