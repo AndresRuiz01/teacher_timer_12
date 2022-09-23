@@ -7,22 +7,22 @@ body {
 }
 
 .skill {
-  width: 370px;
-  height: 370px;
+  width: 280px;
+  height: 280px;
   position: relative;
 }
 
 .outer {
-  height: 370px;
-  width: 370px;
+  height: 280px;
+  width: 280px;
   border-radius: 50%;
   box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
               -6px -6px 10px -1px rgba(0,0,0,0.15);
 }
 
 .inner {
-  height: 330px;
-  width: 330px;
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
   position: relative;
   top: 20px;
@@ -40,9 +40,9 @@ body {
 
 circle {
   fill: none;
-  stroke: darkgray;
+  stroke: black;
   stroke-width: 20px;
-  stroke-dasharray: 1099;
+  stroke-dasharray: 817;
 }
 
 svg {

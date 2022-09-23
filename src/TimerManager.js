@@ -52,11 +52,12 @@ function TimerManager({timers}) {
   }, [])
 
   function repeatedAudio(n) {
+    playAudio();
     var i = 0, 
     interval = setInterval(function() {
         playAudio();
         i++;
-        if(i >= n) clearInterval(interval); // stop it
+        if(i >= n-1) clearInterval(interval); // stop it
     }, 1000);
   }
 
@@ -79,7 +80,7 @@ function TimerManager({timers}) {
   }
 
 
-  var percentageComplete = (1099 - ((seconds / (timers[currentTimerIndex].length * 60)) * 1099))
+  var percentageComplete = (817 - ((seconds / (timers[currentTimerIndex].length * 60)) * 817))
 
   return (
     <div onClick={() => {setIsAudioActive(true)}}>
@@ -113,7 +114,8 @@ function TimerManager({timers}) {
           {/* <circle cx="25vh" cy="25vh" r="45%" style={{strokeDashoffset: percentageComplete}}/> */}
           {/* <circle cx="50vw" cy="50vh" r="20%"/> */}
           {/* <circle cx="25vw" cy="25vh" r="220" style={{strokeDashoffset: percentageComplete}}/> */}
-          <circle cx="25vw" cy="25vh" r="175" style={{strokeDashoffset: percentageComplete}}/>
+          <circle cx="25vw" cy="25vh" r="130" style={{strokeDashoffset: percentageComplete}}/>
+          {/* <circle cx="25vw" cy="25vh" r="130"/> */}
         </svg>
       </div>}
 
