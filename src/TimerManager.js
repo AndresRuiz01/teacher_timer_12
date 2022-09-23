@@ -114,7 +114,7 @@ function TimerManager({timers}) {
           {/* <circle cx="25vh" cy="25vh" r="45%" style={{strokeDashoffset: percentageComplete}}/> */}
           {/* <circle cx="50vw" cy="50vh" r="20%"/> */}
           {/* <circle cx="25vw" cy="25vh" r="220" style={{strokeDashoffset: percentageComplete}}/> */}
-          <circle cx="25vw" cy="25vh" r="130" style={{strokeDashoffset: percentageComplete}}/>
+          <circle cx="25vw" cy="25vh" r="115" style={{strokeDashoffset: percentageComplete}}/>
           {/* <circle cx="25vw" cy="25vh" r="130"/> */}
         </svg>
       </div>}
