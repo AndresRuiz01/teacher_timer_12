@@ -8,6 +8,7 @@ const teacher_timers = [
   {title: "Transition", length: 1},
   {title: "Station Two", length: 12},
   {title: "Transition", length: 1},
+  {title: "Station Three", length: 12},
   {title: "Transition", length: 1},
   {title: "Station Four", length: 12},
   {title: "Clean Up", length: 3},
