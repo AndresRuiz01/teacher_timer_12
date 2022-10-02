@@ -80,7 +80,7 @@ function TimerManager({timers}) {
   }
 
 
-  var percentageComplete = (817 - ((seconds / (timers[currentTimerIndex].length * 60)) * 817))
+  var percentageComplete = (723 - ((seconds / (timers[currentTimerIndex].length * 60)) * 723))
 
   return (
     <div onClick={() => {setIsAudioActive(true)}}>
