@@ -1,6 +1,6 @@
 import './App.css';
-import TimerManager from './TimerManager';
-
+// import TimerManager from './TimerManager';
+import StationTimer from './StationTimer';
 
 const teacher_timers = [
   {title: "Get Ready", length: 1},
@@ -24,7 +24,8 @@ const test_timers = [
 function App() {
   return (
     <div className="App">
-      <TimerManager timers={teacher_timers}/>
+      {/* <TimerManager timers={teacher_timers}/> */}
+      <StationTimer timers={teacher_timers} />
     </div>
   );
 }

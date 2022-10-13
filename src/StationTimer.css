@@ -1,0 +1,12 @@
+#timer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+#circular-timer {
+  position: absolute;
+  transform: rotate(90deg);
+  width: min(100vw, 100vh);
+  height: min(calc(100vw - 20vw), calc(100vh - 20vh));
+}
