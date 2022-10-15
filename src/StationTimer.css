@@ -1,12 +1,31 @@
 #timer-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 5vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin-top: 5vh; */
+  width: 100vw;
+  height: 100vh;
+}
+
+#timer-info-container {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* position: relative; */
+  /* position: absolute; */
+  /* margin: auto; */
+  /* vertical-align: center; */
 }
 
 #circular-timer {
-  position: absolute;
+  /* position: absolute; */
+  /* display: flex; */
   transform: rotate(90deg);
-  width: min(100vw, 100vh);
-  height: min(calc(100vw - 20vw), calc(100vh - 20vh));
+}
+
+.time {
+  font-size: 25px;
+}
+
+.title {
+  font-size: 20px;
 }

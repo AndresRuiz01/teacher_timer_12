@@ -1,17 +1,17 @@
 import './App.css';
-// import TimerManager from './TimerManager';
-import StationTimer from './StationTimer';
+import TimerManager from './TimerManager';
+// import StationTimer from './StationTimer';
 
 const teacher_timers = [
   {title: "Get Ready", length: 1},
-  {title: "Station One", length: 12},
+  {title: "Station One", length: 13},
   {title: "Transition", length: 1},
-  {title: "Station Two", length: 12},
+  {title: "Station Two", length: 13},
   {title: "Transition", length: 1},
-  {title: "Station Three", length: 12},
+  {title: "Station Three", length: 13},
   {title: "Transition", length: 1},
-  {title: "Station Four", length: 12},
-  {title: "Clean Up", length: 3},
+  {title: "Station Four", length: 13},
+  {title: "Clean Up", length: 2},
 ]
 
 const test_timers = [
@@ -24,8 +24,8 @@ const test_timers = [
 function App() {
   return (
     <div className="App">
-      {/* <TimerManager timers={teacher_timers}/> */}
-      <StationTimer timers={teacher_timers} />
+      <TimerManager timers={teacher_timers}/>
+      {/* <StationTimer timers={teacher_timers} /> */}
     </div>
   );
 }

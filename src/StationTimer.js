@@ -89,8 +89,10 @@ function StationTimer({timers}) {
         <source src="https://assets.coderrocketfuel.com/pomodoro-times-up.mp3" type="audio/wav"></source>
       </audio>
       {!isTimersDone && <div id="timer-container">
-        <div className="time">{stringTime}</div>
-        <div className="title">{currentTimerTitle}</div>
+        {/* <div id="timer-info-container">
+          <div className="time">{stringTime}</div>
+          <div className="title">{currentTimerTitle}</div>
+        </div> */}
         <div id="circular-timer">
           <CircularProgress color="inherit" size="min(calc(100vw - 20vw), calc(100vh - 20vh))" variant="determinate" value={percentageComplete} />
         </div>
