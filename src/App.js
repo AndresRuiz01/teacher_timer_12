@@ -4,13 +4,13 @@ import TimerManager from './TimerManager';
 
 const teacher_timers = [
   {title: "Get Ready", length: 1},
-  {title: "Station One", length: 13},
+  {title: "Station One", length: 12},
   {title: "Transition", length: 1},
-  {title: "Station Two", length: 13},
+  {title: "Station Two", length: 12},
   {title: "Transition", length: 1},
-  {title: "Station Three", length: 13},
+  {title: "Station Three", length: 12},
   {title: "Transition", length: 1},
-  {title: "Station Four", length: 13},
+  {title: "Station Four", length: 12},
   {title: "Clean Up", length: 2},
 ]
 
